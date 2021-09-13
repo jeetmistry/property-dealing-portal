@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Dealing Portal</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- CSS for icons and fonts -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <!-- Logo -->
+                <i class='bx bxs-building-house'></i>
+                <!-- Name for Logo -->
+                <div class="logo_name">
+                    Property Portal
+                </div>
+                <!-- Menu -->
+
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+
+        <ul class="nav_list">
+            <!-- Search -->
+            <li>
+
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search">
+
+                <span class="tooltip">Search</span>
+            </li>
+            <!-- Dashboard -->
+            <li>
+                <a href="#banner">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <!-- About Us -->
+            <li>
+                <a href="#aboutus">
+                    <i class='bx bxs-info-circle'></i>
+                    <span class="links_name">About US</span>
+                </a>
+                <span class="tooltip">About US</span>
+            </li>
+            <!-- Properties -->
+            <li>
+                <a href="#properties">
+                    <i class='bx bxs-home'></i>
+                    <span class="links_name">Properties</span>
+                </a>
+                <span class="tooltip">Properties</span>
+            </li>
+            <!-- Buy -->
+            <li>
+                <a href="#buyer">
+                    <i class='bx bxs-user-plus'></i>
+                    <span class="links_name">Buy</span>
+                </a>
+                <span class="tooltip">Buy</span>
+            </li>
+            <!-- Sell -->
+            <li>
+                <a href="#seller">
+                    <i class='bx bxs-user-minus'></i>
+                    <span class="links_name">Sell</span>
+                </a>
+                <span class="tooltip">Sell</span>
+            </li>
+
+            <!-- Testimonals -->
+            <li>
+                <a href="#testimonals">
+                    <i class='bx bxs-message-dots'></i>
+                    <span class="links_name">Testimonals</span>
+                </a>
+                <span class="tooltip">Testimonals</span>
+            </li>
+
+            <!-- Contact Us -->
+            <li>
+                <a href="#contactus" id="cont">
+                    <i class='bx bxs-contact'></i>
+                    <span class="links_name">Contact Us</span>
+                </a>
+                <span class="tooltip">Contact Us</span>
+            </li>
+
+        </ul>
+    </div>
+    <div class="home_content">
+        <!-- Dashboard Section -->
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2>Why Choose Us?</h2>
+                <p>As a property website, we have to let ourcustomers know just how professional our services are. Wheter you are a person who wants to buy a property or a person who wants to sell a property, we've got you covered.</p>
+                <a href="#properties" class="content_button">View Properties</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="aboutus" id="aboutus" >
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText"><span>A</span>bout Us</h2>
+                    <p>When you are striving to make a name for yourself in the property industry, you need to always be looking for a way to stand out from the crowd. There are seemingly millions of different real estate websites to choose from, but none of them are going to match what our site has to offer. The best properties are often going to put the customer first at all times, giving them a website viewing experience that no other company could provide.
+
+                        As a property agent, you have to let customers know just how professional your services are. Wheter you are a person who wants to buy a property or a person who wants to sell a property, we've got you covered. </p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx">
+                        <img src="images/aboutus.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Properties section -->
+        <section class="properties" id="properties">
+            <div class="title">
+                <h2 class="titleText"><span>P</span>roperties</h2>
+                <p>View some of our top listed Properties</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/bunglow.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Bunglows</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/rowhouse.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Row Houses</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/apartment.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Apartments</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/luxuryflat.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Luxury Flats</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="title">
+                <a href="#" class="content_button">View All</a>
+            </div>
+
+        </section>
+
+        <!-- Buyer section -->
+        <section class="buyer" id="buyer">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText">Buy <span>P</span>roperty</h2>
+                    <p>Choose From Thousands of Brokerage-Free Properties For Sale. Resale, Under-Construction, Ready-To-Move-In & Direct Builder Properties Available. Buy Flats, Apartments, Plot, Villas in Pune. Search by Location, Price, Amenities. Choose Your Residential Property from 15 lac+ Property Options on our portal. Real Estate Mumbai - Browse residential properties for sale - New Projects, Resale Flats, Ready To Move in Apartments. 100% Verified Listings. Flats for sale in Mumbai , buy house in Mumbai with Zero brokerage. Check Home/Flat Price in Mumbai & Contact property owner directly.</p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx">
+                        <img src="images/buyer.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="title" style="margin-top:40px ;">
+                <a href="#" class="content_button">I want to Buy a Property</a>
+            </div>
+        </section>
+
+        <!-- Seller section -->
+        <section class="seller" id="seller">
+            <div class="row">
+                <div class="col50">
+                    <div class="imgBx">
+                        <img src="images/seller.jpg">
+                    </div>
+                </div>
+                <div class="col50">
+                    <h2 class="titleText">Sell <span>P</span>roperty</h2>
+                    <p>Choose From Thousands of Brokerage-Free Properties For Sale. Resale, Under-Construction, Ready-To-Move-In & Direct Builder Properties Available. Buy Your Dream Home. Zero Brokerage. Find Genuine Owners. Real Estate Mumbai - Browse residential properties for sale - New Projects, Resale Flats, Ready To Move in Apartments. 100% Verified Listings. Sell a property online or Advertise a house for rent. Post a property advertisement on this portal - India's No. 1 real estate classified site. earch your dream residential, commercial & agricultural properties in India on our portal. Explore ✓6 Lakhs + properties for sale 3.5 Lakhs + Properties.</p>
+                </div>
+                
+
+            </div>
+            <div class="title" style="margin-top: 40px;">
+                <a href="#" class="content_button">I want to Sell a Property</a>
+            </div>
+        </section>
+
+        <!-- Testimonals  Section -->
+        <section class="testimonals" id="testimonals">
+            <div class="title white">
+                <h2 class="titleText">
+                    What They <span>S</span>aid About Us
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/testi1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>I have known this website for several years. My husband and I have had the pleasure of working with this website to sell one house and purchase two. this website is a true professional. It is bright, thorough, and honest as the day is long. Through the years, this website has become a close and trusted friend. I would not hesitate to recommend him.</p>
+                        <h3>Claire Thomas</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/testi2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>My wife & I have moved 6 times in the last 25 years. Obviously, we've dealt with many realtors both on the buying and selling side. I have to say that this website is by far the BEST realtor we've ever worked with, his professionalism, personality, attention to detail, responsiveness and his ability to close the deal was Outstanding!!! If you are buying or selling a home, do yourselves a favor and hire this website Marsden!!</p>
+                        <h3>Pierre Comeau</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/testi3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland. this website and his skilled team helped make that dream a reality. The sale went smoothly, and we just closed on an ideal new place we're excited to call home. Nobody  knows Portland and the peninsula better than this website. He really listens to clients and goes the extra mile with customer service, too.</p>
+                        <h3>Brock Foreman</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact us -->
+        <section class="contactus" id="contactus">
+            <div class="title" >
+                <h2 class="titleText">
+                    <span>C</span>ontact Us
+                </h2>
+                <p>Contact us if you've came across any queries.</p>
+            </div>
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </section>
+
+
+        
+        <div class="copyrightText">
+            <p>
+                Copyright 2021 Jeet Mistry. All Rights Reserved. <i class='bx bx-copyright' ></i></p>
+                
+        </div>
+    </div>
+
+
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+    </script>
+    <script type="text/javascript" src="body.js"></script>
+</body>
+
+</html>
