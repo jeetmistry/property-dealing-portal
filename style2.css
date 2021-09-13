@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/images/housebanner1.jpg);
+    background: url(./images/housebanner1.jpg);
     background-size: cover;
 }
 
@@ -153,7 +153,7 @@ padding: 15px 0 5px;
 }
 
 .testimonals {
-    background: url(images/testibg.jpg);
+    background: url(./images/testibg.jpg);
     background-size: cover;
 }
 
@@ -217,7 +217,7 @@ padding: 15px 0 5px;
 }
 
 .contactus{
-    background: url(images/contactus.jpg);
+    background: url(./images/contactus.jpg);
     background-size: cover;
 }
 
