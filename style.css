@@ -197,5 +197,6 @@ body{
 .sidebar.active ~ .home_content{
     width: calc(100%-240px);
     left: 240px;
+    height: 100%;
     transition: 0.5s;
 }
