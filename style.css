@@ -200,3 +200,60 @@ body{
     height: 100%;
     transition: 0.5s;
 }
+
+/*Cookies */
+
+.cookie_box{
+    position: relative;
+    align-self:center;
+    left: 35%;
+    top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.cookie_box img{
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    background-size:contain;
+}
+
+.cookie_box h3{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 30px;
+}
+
+.cookie_box button{
+    padding: 8px 25px;
+    margin-top: 10px;
+    background: #ff0157;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.cookie_box button:focus{
+    background: #db0c51;
+
+}
+.hide 
+{
+display:none;
+}
+
+.opachalf{
+    opacity: 30%;
+}
+.opacfull{
+    opacity: 100%;
+}
